@@ -1,17 +1,21 @@
 import React from "react";
 import "./Header.css";
 import PersonIcon from "@mui/icons-material/Person";
+import ForumIcon from "@mui/icons-material/Forum";
 import { IconButton } from "@mui/material";
 
 function Header() {
   return (
-    <div>
-      <h2>I am the header</h2>
+    <div className="header">
       <IconButton>
         <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
 
       <img className="header__logo" src="tinderlogo.png" alt="" />
+
+      <IconButton>
+        <ForumIcon fontSize="large" className="header__icon" />
+      </IconButton>
     </div>
   );
 }
