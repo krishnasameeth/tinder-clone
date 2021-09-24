@@ -1,10 +1,11 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
       <h1>TINDER CLONE</h1>
-      {/* Header */}
+      <Header />
       {/* TinderCards */}
       {/* SwipeButtons */}
     </div>
