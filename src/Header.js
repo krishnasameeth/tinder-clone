@@ -10,6 +10,8 @@ function Header() {
       <IconButton>
         <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
+
+      <img className="header__logo" src="tinderlogo.png" alt="" />
     </div>
   );
 }
